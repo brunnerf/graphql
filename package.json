@@ -1,0 +1,10 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "graphql nodejs application",
+  "main": "src/index.js",
+  "repository": "https://github.com/brunnerf/graphql",
+  "author": "brunnerf <brunner_felix@bluewin.ch>",
+  "license": "MIT",
+  "private": false
+}
