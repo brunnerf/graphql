@@ -6,5 +6,10 @@
   "repository": "https://github.com/brunnerf/graphql",
   "author": "brunnerf <brunner_felix@bluewin.ch>",
   "license": "MIT",
-  "private": false
+  "private": false,
+
+  "scripts": {
+    "deploy": "S3_BUCKET=dev-brunnefe-graphql-lambda ./bin/deploy",
+    "dev": "sam local start-api --template-file cloudformation.yml"
+  }
 }
