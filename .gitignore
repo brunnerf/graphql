@@ -1,1 +1,4 @@
 .projenv
+node_modules
+dist/*.zip
+yarn.lock
