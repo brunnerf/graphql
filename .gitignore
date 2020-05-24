@@ -1,4 +1,4 @@
 .projenv
-node_modules
-dist/*.zip
+dist/
+node_modules/
 yarn.lock
